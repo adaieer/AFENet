@@ -1,8 +1,8 @@
 from torch.utils.data import DataLoader
-from afeseg.datasets.potsdam_dataset import *
-from afeseg.models.AFENet import AFENet
-from afeseg.datasets.potsdam_dataset import PotsdamDataset
-from afeseg.losses import *
+from GeoSeg.geoseg.datasets.potsdam_dataset import *
+from model.AFENet import AFENet
+from GeoSeg.geoseg.datasets.potsdam_dataset import PotsdamDataset
+from GeoSeg.geoseg.losses import *
 from catalyst.contrib.nn import Lookahead
 from catalyst import utils
 

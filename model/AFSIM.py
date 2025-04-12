@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from AFENet.model.Attention import CrossAttention
+from model.Attention import CrossAttention
 
 
 # Adaptive Frequency and Spatial feature Interaction Module(AFSIM)

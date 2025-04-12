@@ -8,7 +8,7 @@ import numbers
 
 from einops import rearrange
 
-from AFENet.model.AFSIM import AFSIModule
+from model.AFSIM import AFSIModule
 
 
 def to_3d(x):
